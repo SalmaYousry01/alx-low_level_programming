@@ -4,6 +4,14 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+
+/**
+ * main - Entry point
+ *
+ * Description: 'learning c'
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -12,17 +20,13 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("the number is positive and is equal to %d\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("the number is zero");
+		printf("the number is positive");
 	}
 	else if (n < 0)
 	{
 		printf("the number is negative");
 	}
 	else
-		printf("it's not a number");
+                printf("the number is zero");
 	return (0);
 }
