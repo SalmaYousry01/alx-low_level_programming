@@ -20,13 +20,13 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("the number is positive");
+		printf("$n is positive");
 	}
 	else if (n < 0)
 	{
-		printf("the number is negative");
+		printf("$n is negative");
 	}
 	else
-		printf("the number is zero");
+		printf("$n is zero");
 	return (0);
 }
