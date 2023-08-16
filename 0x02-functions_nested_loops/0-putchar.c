@@ -3,6 +3,7 @@
 
 /**
  *main - Entry point
+ *@c: char to print
  *Description: 'c functions'
  *Return: return 0
  */
@@ -12,9 +13,6 @@ int main(void)
 	putcharFunction();
 	return (0);
 }
-/**
- *Description: 'a fuction that prints a word'
- */
 void putcharFunction(void)
 {
 	printf("_putchar\n");
