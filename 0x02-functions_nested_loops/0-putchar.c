@@ -12,6 +12,7 @@ int main(void)
 	putcharFunction();
 	return (0);
 }
+/*a fuction that prints a word*/
 void putcharFunction(void)
 {
 	printf("_putchar\n");
