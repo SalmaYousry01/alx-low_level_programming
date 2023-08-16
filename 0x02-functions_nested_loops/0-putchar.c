@@ -3,7 +3,7 @@
 
 /**
  *main - Entry point
- *Description: c functions
+ *Description: 'c functions'
  *Return: return 0
  */
 void putcharFunction(void);
