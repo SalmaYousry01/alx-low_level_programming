@@ -10,24 +10,23 @@
  * main - Entry point
  *
  * Description: 'learning c'
- *
+ * positive_or_negative: function
+ *@i: it's i
  * Return: Always 0 (Success)
  */
-int main(void)
+void positive_or_negative(int i)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
+	if (i < 0)
 	{
-		printf("%d is positive\n", n);
+		printf("%d is %s\n", i, "negative");
 	}
-	else if (n < 0)
+	else if (i > 0)
 	{
-		printf("%d is negative\n", n);
+		printf("%d is %s\n", i, "positive");
 	}
 	else
-		printf("%d is zero\n", n);
-	return (0);
+	{
+		printf("%d is %s\n", i, "zero");
+	}
+	return;
 }
